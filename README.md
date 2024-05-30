@@ -1,4 +1,4 @@
-# online_pg_dekho# Online PG Dekho Platform
+Online PG Dekho Platform
 
 ## Overview
 
@@ -23,12 +23,15 @@ Online PG Dekho is a web-based platform designed to help users find and book pay
 
 ### Use Case Diagram
 The use case diagram illustrates the interactions between users, admins, and the system. It highlights the functionalities available to each type of user.
+![image](https://github.com/cse-kiet/PCSE24-58/assets/170091495/c50d3c98-e047-4c60-8692-eadf8ceb1893)
+
 
 
 ### Admin Activity Diagram
 The activity diagram for admin functionalities represents the sequence of actions performed by the admin, from logging in to managing properties, users, and complaints.
 
-![Admin Activity Diagram](path/to/admin_activity_diagram.png)
+![image](https://github.com/cse-kiet/PCSE24-58/assets/170091495/41a653db-4f0a-4fc6-88f6-82cf048f04df)
+
 
 ## Project Structure
 
@@ -37,8 +40,4 @@ The activity diagram for admin functionalities represents the sequence of action
 - **Database**: MongoDB is used for storing user data, PG details, bookings, and complaints.
 
 
-
-## Appendix
-
-Any additional information goes here
 
