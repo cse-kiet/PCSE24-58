@@ -1,43 +1,80 @@
-Online PG Dekho Platform
+
+
+
+# Online PG Dekho
 
 ## Overview
+Online PG Dekho is a comprehensive platform designed to assist students in finding paying guest (PG) accommodations near their educational institutions. The platform leverages modern web technologies to offer a user-friendly and efficient search experience. 
 
-Online PG Dekho is a web-based platform designed to help users find and book paying guest accommodations (PGs) efficiently. The platform allows users to search for PGs by location, view detailed descriptions, and book their preferred PGs. Admins can manage properties, users, complaints, and bookings through a comprehensive admin panel.
+**Visit our live site:** [https://onlinepgdekho.com](https://onlinepgdekho.com)
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+  - [User Features](#user-features)
+  - [Admin Features](#admin-features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 ## Features
 
 ### User Features
-- **Search PG by Location**: Users can search for PG accommodations based on their preferred location.
-- **View PG Details**: Detailed descriptions of PGs are provided, including amenities, pricing, and contact details.
-- **Booking System**: Users can book PGs directly through the platform.
-- **User Registration and Login**: New users can register, and existing users can log in to access personalized features.
+- **Advanced Search**: Users can search for PG accommodations using various filters such as location, price range, amenities, etc.
+- **Detailed Listings**: Each property listing includes comprehensive details such as photos, descriptions, amenities, and contact information.
+- **User Reviews and Ratings**: Users can leave reviews and ratings for properties they have stayed in, helping future users make informed decisions.
+- **Secure Booking**: The platform provides a secure booking process with various payment options.
+- **Profile Management**: Users can manage their profiles, view their booking history, and save favorite listings for future reference.
 
 ### Admin Features
-- **Add and Update PGs**: Admins can add new PG listings and update existing ones.
-- **Manage Users**: Admins can add users, block or remove users, and view user details.
-- **Manage Complaints**: Admins can view and update the status of complaints lodged by users.
-- **View Reports**: Detailed reports on PG listings, user activities, and platform performance are available.
-- **Booking Management**: Admins can view booking details, including user contact information and booking amounts.
+- **Dashboard**: A comprehensive admin dashboard providing an overview of key metrics such as total properties, total users, total bookings, and earnings.
+- **Property Management**: Admins can add, update, and remove property listings. This includes managing property details, photos, and availability.
+- **User Management**: Admins have the ability to manage user accounts, including viewing user details and booking history.
+- **Booking Management**: The admin panel provides tools to manage bookings, including viewing payment status and transaction history.
+- **Reports and Analytics**: Generate reports and view analytics to understand platform performance and user engagement.
 
-## Methodology
+## Technologies Used
+- **Front-End**: HTML, CSS, JavaScript, Bootstrap
+- **Back-End**: PHP, MySQL
+- **Hosting**: Hostinger
 
-### Use Case Diagram
-The use case diagram illustrates the interactions between users, admins, and the system. It highlights the functionalities available to each type of user.
-![image](https://github.com/cse-kiet/PCSE24-58/assets/170091495/c50d3c98-e047-4c60-8692-eadf8ceb1893)
+## Setup and Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/online-pg-dekho.git
+   ```
+2. **Navigate to the project directory**:
+   ```bash
+   cd online-pg-dekho
+   ```
+3. **Set up the database**:
+   - Create a new MySQL database.
+   - Import the provided SQL file to set up the database schema.
+4. **Configure environment variables**:
+   - Rename `.env.example` to `.env` and update the database credentials and other necessary configurations.
+5. **Install dependencies**:
+   ```bash
+   composer install
+   ```
+6. **Run the application**:
+   - Start the local server using a tool like XAMPP or MAMP.
+   - Open your browser and navigate to `http://localhost/online-pg-dekho`.
+
+## Usage
+- Visit the [live site](https://onlinepgdekho.com) to explore the platform.
+- Users can sign up, search for PG accommodations, book properties, and leave reviews.
+- Admins can log in to the admin panel to manage the platform's content and view analytics.
+
+## Contributing
+We welcome contributions from the community. Please read our [contributing guidelines](CONTRIBUTING.md) for more information.
 
 
 
-### Admin Activity Diagram
-The activity diagram for admin functionalities represents the sequence of actions performed by the admin, from logging in to managing properties, users, and complaints.
+## Acknowledgements
+We thank all the contributors and users who have supported the development of this platform.
+```
 
-![image](https://github.com/cse-kiet/PCSE24-58/assets/170091495/41a653db-4f0a-4fc6-88f6-82cf048f04df)
-
-
-## Project Structure
-
-- **Frontend**: Developed using HTML, CSS, and JavaScript for a responsive and user-friendly interface.
-- **Backend**: Built with Node.js and Express.js to handle server-side logic and database interactions.
-- **Database**: MongoDB is used for storing user data, PG details, bookings, and complaints.
-
-
-
+This version includes the additional features, mentions that the site is live, and provides a link to visit the site. The formatting has been adjusted to improve readability and professionalism.
